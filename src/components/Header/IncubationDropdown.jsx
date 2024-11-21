@@ -1,31 +1,47 @@
-'use client'
-import React from "react";
-
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+ "use client"
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { FetchSchemes } from "../../app/store/Action/FetchAllSchgemedetails"; 
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function IncubationDropdown() {
+  const dispatch = useDispatch();
+  const { loading, data, success, error } = useSelector((state) => state.schemes); 
+
+  useEffect(() => {
+   if(!success){
+    dispatch(FetchSchemes());
+   }
+    
+  }, []);
+
   return (
     <Dropdown>
       <DropdownTrigger>
         <Button 
-         variant="none"
-         size="lg"
-         className="text-[18px] px-0"
+          variant="none"
+          size="lg"
+          className="text-[18px] px-0"
         >
-          Incubation
+          {loading ? "Loading..." : "Incubation"}
         </Button>
       </DropdownTrigger>
-      <DropdownMenu >
-        <DropdownItem key="nidhieir"><Link href="/incubation/nidhieir">NIDHI EIR</Link></DropdownItem>
-        <DropdownItem key="nidhiprayas"><Link href="/incubation/nidhiprayas">NIDHIR PRAYAS</Link></DropdownItem>
-        <DropdownItem key="tide"><Link href="/incubation/tide">TIDE 2.0</Link ></DropdownItem>
-        <DropdownItem key="msme"><Link href="/incubation/msme">MSME</Link></DropdownItem>
-        <DropdownItem key="startincubation"><Link href="/incubation/startincubation">Start Incubation</Link></DropdownItem>
-        <DropdownItem key="idex"><Link href="/incubation/idex">IDEX</Link></DropdownItem>
-        <DropdownItem key="preincubation"><Link href="/incubation/preincubation">Pre-Incubation</Link></DropdownItem>
+      <DropdownMenu>
+        {error ? (
+          <DropdownItem key="error" disabled>
+            {error}
+          </DropdownItem>
+        ) : (
+          data.map((schemeName) => (
+            <DropdownItem key={schemeName}>
+              <Link href={`/incubation/${schemeName.toLowerCase()}`}>
+                {schemeName}
+              </Link>
+            </DropdownItem>
+          ))
+        )}
       </DropdownMenu>
     </Dropdown>
   );
 }
-

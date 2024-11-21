@@ -6,25 +6,25 @@ const page = () => {
   return (
     <>
 
-      <div className="py-20 2xl:px-10 lg:px-12 px-4 2xl:mx-auto 2xl:container max-w-screen-xl " >
-        <div className="md:flex items-center justify-between w-full">
-          <div className="xl:w-1/3 md:w-1/2 w-full">
-            <h1 role="heading" className="focus:outline-none md:w-60 font-bold md:text-6xl gap-2 italic text-4xl leading-tight text-gray-800">
+      <div className="max-w-screen-xl px-4 py-20 2xl:px-10 lg:px-12 2xl:mx-auto 2xl:container " >
+        <div className="items-center justify-between w-full md:flex">
+          <div className="w-full xl:w-1/3 md:w-1/2">
+            <h1 role="heading" className="gap-2 text-4xl italic font-bold leading-tight text-gray-800 focus:outline-none md:w-60 md:text-6xl">
               <div className='flex flex-col'>
                 <div>NIDHI</div>
-                <div><span className="font-normal italic text-blue-900  ">Prayas</span></div>
+                <div><span className="italic font-normal text-blue-900 ">Prayas</span></div>
 
               </div>
 
-              {/* NIDHI< span className="font-normal italic text-blue-900  ">Prayas</> */}
+              {/* NIDHI< span className="italic font-normal text-blue-900 ">Prayas</> */}
             </h1>
-            <p role="contentinfo" className="focus:outline-none text-base leading-6 mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12">
+            <p role="contentinfo" className="pr-12 mt-8 text-base leading-6 text-gray-600 focus:outline-none 2xl:pr-24 xl:pr-0">
            The DST-supported NIDHI program (National Initiative for Developing and Harnessing Innovation) aims to promote and accelerate young innovators and startups. The PRAYAS program, part of NIDHI, helps innovators turn their ideas into prototypes, encouraging them to explore without fearing failure. Positioned as a pre-incubation initiative, NIDHI-PRAYAS supports early-stage innovation development.
 
 
               </p>
             <div className="mt-10">
-              <a href='#' className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
+              <a href='#' className="flex items-center p-1 text-xl font-medium leading-5 text-gray-800 md:p-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
                 Register here
                 <svg className="ml-8" width={45} height={40} viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -38,10 +38,10 @@ const page = () => {
               </a>
             </div>
           </div>
-          <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-40">
+          <div className="w-full xl:w-4/6 md:w-1/2 xl:pl-40">
 
             <div className="w-full">
-              <img src="/Incubation/nidhiprayas.png" alt="Nidhi EIR 1.0" className="md:w-full sm:w-1/2 w-full" />
+              <img src="/Incubation/nidhiprayas.png" alt="Nidhi EIR 1.0" className="w-full md:w-full sm:w-1/2" />
               <div className="flex items-center mt-8">
 
               </div>
@@ -52,23 +52,23 @@ const page = () => {
 
 
 
-      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-        {/* <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">About</p> */}
-        <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
+      <div className="px-4 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9">
+        {/* <p className="pb-2 text-sm font-normal leading-3 text-indigo-700 cursor-pointer hover:text-indigo-800">About</p> */}
+        <div className="flex flex-col gap-12 lg:flex-row lg:gap-8 sm:gap-10">
           <div className="w-full lg:w-6/12">
-            <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">Empowering Innovation: From Idea to Prototype
+            <h2 className="w-full text-3xl font-bold leading-9 lg:text-4xl lg:leading-10">Empowering Innovation: From Idea to Prototype
 </h2>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">The NIDHI-PRAYAS program supports budding innovators by offering grants and resources to develop their ideas into working prototypes. By providing financial backing, mentorship, and access to fabrication labs, the program reduces the barrier to experimentation, enabling innovators to bring their ideas closer to realization. It fosters creativity, promotes risk-taking, and helps innovators transform their ideas into tangible outcomes that can be scaled for impact.</p>    </div>
+            <p className="mt-6 text-base font-normal leading-6 text-gray-600">The NIDHI-PRAYAS program supports budding innovators by offering grants and resources to develop their ideas into working prototypes. By providing financial backing, mentorship, and access to fabrication labs, the program reduces the barrier to experimentation, enabling innovators to bring their ideas closer to realization. It fosters creativity, promotes risk-taking, and helps innovators transform their ideas into tangible outcomes that can be scaled for impact.</p>    </div>
           <div className="w-full lg:w-6/12">
-            <img className="lg:block hidden w-full" src="/Incubation/nidhiprayas2.png" alt="people discussing on board" />
-            <img className="lg:hidden sm:block hidden w-full" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
-            <img className="sm:hidden block w-full" src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png" alt="people discussing on board" />
+            <img className="hidden w-full lg:block" src="/Incubation/nidhiprayas2.png" alt="people discussing on board" />
+            <img className="hidden w-full lg:hidden sm:block" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
+            <img className="block w-full sm:hidden" src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png" alt="people discussing on board" />
           </div>
         </div>
 
         <div className="relative mt-24">
-          <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
-            <div className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
+            <div className="z-20 flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 5V21" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M19 5V14" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -85,7 +85,7 @@ const page = () => {
               <path d="M17 22V17C17 16.4696 17.2107 15.9609 17.5858 15.5858C17.9609 15.2107 18.4696 15 19 15H26L31 20V22" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
 
-            <svg className="z-20 sm:block hidden" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="z-20 hidden sm:block" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="24" cy="24" r="24" fill="#1F2937" />
               <path d="M21 23C23.2091 23 25 21.2091 25 19C25 16.7909 23.2091 15 21 15C18.7909 15 17 16.7909 17 19C17 21.2091 18.7909 23 21 23Z" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M15 33V31C15 29.9391 15.4214 28.9217 16.1716 28.1716C16.9217 27.4214 17.9391 27 19 27H23C24.0609 27 25.0783 27.4214 25.8284 28.1716C26.5786 28.9217 27 29.9391 27 31V33" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -93,26 +93,26 @@ const page = () => {
               <path d="M33 33.0001V31.0001C32.9949 30.1173 32.6979 29.2609 32.1553 28.5645C31.6126 27.8682 30.8548 27.3708 30 27.1501" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-          <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
+          <hr className="absolute z-10 w-full bg-gray-200 top-2/4" />
         </div>
-        <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
           <div>
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded</p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">Founded in May 1971, the Department of Science & Technology (DST) was established to promote and coordinate Science & Technology activities across India.
+            <p className="mt-6 text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">Founded</p>
+            <p className="mt-6 text-base font-normal leading-6 text-gray-600">Founded in May 1971, the Department of Science & Technology (DST) was established to promote and coordinate Science & Technology activities across India.
 
 </p>
           </div>
           <div>
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Venture Center</p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">Venture Center is a Pune-based incubator specializing in materials, chemicals, and biological sciences, serving as the NIDHI-PRAYAS Programme Implementation Partner of NSTEDB.</p>
+            <p className="mt-6 text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">Venture Center</p>
+            <p className="mt-6 text-base font-normal leading-6 text-gray-600">Venture Center is a Pune-based incubator specializing in materials, chemicals, and biological sciences, serving as the NIDHI-PRAYAS Programme Implementation Partner of NSTEDB.</p>
           </div>
-          <div className="sm:block hidden">
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">1,30,000+ Jobs </p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">NIDHI-PRAYAS has contributed to the innovation sector, supporting the creation of over 130,000 jobs by nurturing early-stage startups</p>
+          <div className="hidden sm:block">
+            <p className="mt-6 text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">1,30,000+ Jobs </p>
+            <p className="mt-6 text-base font-normal leading-6 text-gray-600">NIDHI-PRAYAS has contributed to the innovation sector, supporting the creation of over 130,000 jobs by nurturing early-stage startups</p>
           </div>
         </div>
-        <div className="sm:hidden block relative mt-8">
-          <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+        <div className="relative block mt-8 sm:hidden">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
             <svg className="z-20" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="24" cy="24" r="24" fill="#1F2937" />
               <path d="M21 23C23.2091 23 25 21.2091 25 19C25 16.7909 23.2091 15 21 15C18.7909 15 17 16.7909 17 19C17 21.2091 18.7909 23 21 23Z" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -121,23 +121,23 @@ const page = () => {
               <path d="M33 33.0001V31.0001C32.9949 30.1173 32.6979 29.2609 32.1553 28.5645C31.6126 27.8682 30.8548 27.3708 30 27.1501" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-          <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
+          <hr className="absolute z-10 w-full bg-gray-200 top-2/4" />
         </div>
-        <div className="sm:hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+        <div className="grid grid-cols-2 gap-4 sm:hidden sm:grid-cols-3 sm:gap-8">
           <div>
-            <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">400k User</p>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p className="mt-6 text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">400k User</p>
+            <p className="mt-6 text-base font-normal leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
         </div>
 
-        <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
+        <div className="flex flex-col justify-between gap-16 mt-16 lg:flex-row md:gap-14 lg:mt-20">
           <div className="w-full lg:w-6/12">
-            <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Mission</h2>
-            <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Our mission is to support innovators in transforming their ideas into prototypes by providing a pre-incubation platform that fosters rapid experimentation. We focus on helping innovators refine and perfect their concepts to increase the chances of success in further development stages.</p>
-            <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">In addition, we aim to enhance the quality and quantity of startups entering incubators. By creating a robust innovation ecosystem, we facilitate connections between innovators, academia, mentors, and incubators. This collaborative environment helps innovators get the necessary resources and guidance to turn their ideas into impactful solutions..</p>
+            <h2 className="text-3xl font-bold leading-7 text-gray-800 lg:text-4xl lg:leading-9">Our Mission</h2>
+            <p className="w-full mt-6 text-base font-normal leading-6 text-gray-600 lg:w-10/12 xl:w-9/12">Our mission is to support innovators in transforming their ideas into prototypes by providing a pre-incubation platform that fosters rapid experimentation. We focus on helping innovators refine and perfect their concepts to increase the chances of success in further development stages.</p>
+            <p className="w-full mt-10 text-base font-normal leading-6 text-gray-600 lg:w-10/12 xl:w-9/12">In addition, we aim to enhance the quality and quantity of startups entering incubators. By creating a robust innovation ecosystem, we facilitate connections between innovators, academia, mentors, and incubators. This collaborative environment helps innovators get the necessary resources and guidance to turn their ideas into impactful solutions..</p>
           </div>
           <div className="w-full lg:w-6/12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
+            <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12">
               {/* <!-- Team Card --> */}
               <div className="flex p-4 shadow-md">
                 <div className="mr-6">
@@ -148,28 +148,66 @@ const page = () => {
                   </svg>
                 </div>
                 <div >
-                  <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Team</p>
-                  <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                  <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">Team</p>
+                  <p className="mt-2 text-base font-normal leading-6 text-gray-600">
                Shruti Devasthali leads seed funding and portfolio monitoring at Venture Center. Namrata Salwe manages seed fund applications, with 18 years of IT and project management experience.    </p>   </div>
               </div>
 
               {/* <!-- Board Card --> */}
               <div className="flex p-4 shadow-md">
-                <div className="mr-6">
-                  <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.5 10.5C12.1569 10.5 13.5 9.15685 13.5 7.5C13.5 5.84315 12.1569 4.5 10.5 4.5C8.84315 4.5 7.5 5.84315 7.5 7.5C7.5 9.15685 8.84315 10.5 10.5 10.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M7.5 33V25.5L6 24V18C6 17.6022 6.15804 17.2206 6.43934 16.9393C6.72064 16.658 7.10218 16.5 7.5 16.5H13.5C13.8978 16.5 14.2794 16.658 14.5607 16.9393C14.842 17.2206 15 17.6022 15 18V24L13.5 25.5V33" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M25.5 10.5C27.1569 10.5 28.5 9.15685 28.5 7.5C28.5 5.84315 27.1569 4.5 25.5 4.5C23.8431 4.5 22.5 5.84315 22.5 7.5C22.5 9.15685 23.8431 10.5 25.5 10.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M22.5 33V27H19.5L22.5 18C22.5 17.6022 22.658 17.2206 22.9393 16.9393C23.2206 16.658 23.6022 16.5 24 16.5H27C27.3978 16.5 27.7794 16.658 28.0607 16.9393C28.342 17.2206 28.5 17.6022 28.5 18L31.5 27H28.5V33" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-                <div >
-                  <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Board</p>
-                  <p className="mt-2 font-normal text-base leading-6 text-gray-600">The Board is composed of experienced professionals guiding Venture Center's strategic direction, ensuring informed decision-making and effective implementation of innovation and entrepreneurship programs.
+  {/* Icon */}
+  <div className="mr-6">
+    <svg
+      width="36"
+      height="36"
+      viewBox="0 0 36 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.5 10.5C12.1569 10.5 13.5 9.15685 13.5 7.5C13.5 5.84315 12.1569 4.5 10.5 4.5C8.84315 4.5 7.5 5.84315 7.5 7.5C7.5 9.15685 8.84315 10.5 10.5 10.5Z"
+        stroke="#1F2937"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.5 33V25.5L6 24V18C6 17.6022 6.15804 17.2206 6.43934 16.9393C6.72064 16.658 7.10218 16.5 7.5 16.5H13.5C13.8978 16.5 14.2794 16.658 14.5607 16.9393C14.842 17.2206 15 17.6022 15 18V24L13.5 25.5V33"
+        stroke="#1F2937"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M25.5 10.5C27.1569 10.5 28.5 9.15685 28.5 7.5C28.5 5.84315 27.1569 4.5 25.5 4.5C23.8431 4.5 22.5 5.84315 22.5 7.5C22.5 9.15685 23.8431 10.5 25.5 10.5Z"
+        stroke="#1F2937"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22.5 33V27H19.5L22.5 18C22.5 17.6022 22.658 17.2206 22.9393 16.9393C23.2206 16.658 23.6022 16.5 24 16.5H27C27.3978 16.5 27.7794 16.658 28.0607 16.9393C28.342 17.2206 28.5 17.6022 28.5 18L31.5 27H28.5V33"
+        stroke="#1F2937"
+        strokeWidth="2.75"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </div>
 
-</p>
-                </div>
-              </div>
+  {/* Text Section */}
+  <div>
+    <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">
+      Board
+    </p>
+    <p className="mt-2 text-base font-normal leading-6 text-gray-600">
+      The Board is composed of experienced professionals guiding Venture
+      Center's strategic direction, ensuring informed decision-making and
+      effective implementation of innovation and entrepreneurship programs.
+    </p>
+  </div>
+</div>
+
 
               {/* <!-- Press Card --> */}
               <div className="flex p-4 shadow-md">
@@ -180,8 +218,8 @@ const page = () => {
                   </svg>
                 </div>
                 <div >
-                  <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Press</p>
-                  <p className="mt-2 font-normal text-base leading-6 text-gray-600">Our press releases highlight key milestones, partnerships, and innovations emerging from our incubator, fostering a culture of collaboration and awareness in the entrepreneurial ecosystem.</p>
+                  <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-2xl lg:leading-6">Press</p>
+                  <p className="mt-2 text-base font-normal leading-6 text-gray-600">Our press releases highlight key milestones, partnerships, and innovations emerging from our incubator, fostering a culture of collaboration and awareness in the entrepreneurial ecosystem.</p>
                 </div>
               </div>
             </div>
@@ -189,64 +227,64 @@ const page = () => {
         </div>
       </div>
       <div classname="overflow-y-hidden bg-gray-100">
-        <div className="mx-auto container f-f-p px-4 xl:px-0 py-24">
-          <h1 className="focus:outline-none text-center text-3xl lg:text-4xl font-extrabold lg:leading-9 tracking-wider text-gray-900">How to get Started</h1>
+        <div className="container px-4 py-24 mx-auto f-f-p xl:px-0">
+          <h1 className="text-3xl font-extrabold tracking-wider text-center text-gray-900 focus:outline-none lg:text-4xl lg:leading-9">How to get Started</h1>
           <div className="md:mt-24 f-f-p">
-            <div className="hidden md:flex justify-center w-full">
-              <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
+            <div className="justify-center hidden w-full md:flex">
+              <div className="relative flex flex-col items-center border-gray-300 md:items-end md:pr-12 md:border-r-4 md:w-1/2">
                 <div aria-label="sign up" role="img">
-                  <img className="focus:outline-none mt-10" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg" alt="how it work" />
+                  <img className="mt-10 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg" alt="how it work" />
                 </div>
                 <div aria-label={2} role="img">
-                  <img className="focus:outline-none mt-24" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg" alt />
+                  <img className="mt-24 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg" alt />
                 </div>
-                <div className="flex mt-12 flex-col items-center lg:items-end md:w-8/12">
-                  <h1 className="focus:outline-none text-xl font-bold leading-5">Evaluate.</h1>
-                  <h2 className="focus:outline-none text-gray-500 mt-3 pl-3 text-center md:text-right text-base leading-6 tracking-wide">Your Idea will be evaluated by the Panel Members </h2>
+                <div className="flex flex-col items-center mt-12 lg:items-end md:w-8/12">
+                  <h1 className="text-xl font-bold leading-5 focus:outline-none">Evaluate.</h1>
+                  <h2 className="pl-3 mt-3 text-base leading-6 tracking-wide text-center text-gray-500 focus:outline-none md:text-right">Your Idea will be evaluated by the Panel Members </h2>
                 </div>
                 <div aria-label="transactions" role="img">
-                  <img className="focus:outline-none mt-24" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg" alt />
+                  <img className="mt-24 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg" alt />
                 </div>
-                <img className="hidden md:block absolute right-0 top-0 -mt-2 -mr-1" src="https://cdn.tuk.dev/assets/components/111220/Fs7/line.png" alt />
+                <img className="absolute top-0 right-0 hidden -mt-2 -mr-1 md:block" src="https://cdn.tuk.dev/assets/components/111220/Fs7/line.png" alt />
               </div>
-              <div className="flex flex-col items-center md:items-start md:pl-12 lg:border-gray-400 mt-20 md:mt-0 md:w-1/2">
+              <div className="flex flex-col items-center mt-20 md:items-start md:pl-12 lg:border-gray-400 md:mt-0 md:w-1/2">
                 <div aria-label={1} role="img">
                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg" alt />
                 </div>
-                <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
-                  <h1 className="focus:outline-none text-xl font-bold leading-5">Register</h1>
-                  <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">Fill Form to join the NIDHI-Prayas program </h2>
+                <div className="flex flex-col items-center mt-6 md:items-start md:w-8/12">
+                  <h1 className="text-xl font-bold leading-5 focus:outline-none">Register</h1>
+                  <h2 className="mt-3 text-base leading-6 tracking-wide text-gray-500 focus:outline-none">Fill Form to join the NIDHI-Prayas program </h2>
                 </div>
                 <div aria-label="wallet" role="img">
-                  <img className="focus:outline-none mt-32" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg" alt />
+                  <img className="mt-32 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg" alt />
                 </div>
                 <div aria-label={3} role="img">
-                  <img className="focus:outline-none mt-20" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt />
+                  <img className="mt-20 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt />
                 </div>
-                <div className="flex mt-6 flex-col items-center md:items-start md:w-8/12">
-                  <h1 className="focus:outline-none text-xl font-bold leading-5">Pitch</h1>
-                  <h2 className="focus:outline-none text-gray-500 mt-3 text-base leading-6 tracking-wide">Your have to pitch your IDEA</h2>
+                <div className="flex flex-col items-center mt-6 md:items-start md:w-8/12">
+                  <h1 className="text-xl font-bold leading-5 focus:outline-none">Pitch</h1>
+                  <h2 className="mt-3 text-base leading-6 tracking-wide text-gray-500 focus:outline-none">Your have to pitch your IDEA</h2>
                 </div>
               </div>
             </div>
-            <div className="md:hidden flex flex-col items-center w-full">
-              <img className="focus:outline-none my-10" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg" alt="how it work" />
+            <div className="flex flex-col items-center w-full md:hidden">
+              <img className="my-10 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg1.svg" alt="how it work" />
               <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg4.svg" alt />
               <div className="mt-10">
-                <h1 className="text-xl text-center tracking-wide leading-5 font-bold">Pitch</h1>
-                <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, asperiores.</h2>
+                <h1 className="text-xl font-bold leading-5 tracking-wide text-center">Pitch</h1>
+                <h2 className="mt-3 text-base leading-6 tracking-wide text-center text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, asperiores.</h2>
               </div>
-              <img className="focus:outline-none my-10" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg" alt />
+              <img className="my-10 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg5.svg" alt />
               <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg2.svg" alt />
               <div className="mt-10">
-                <h1 className="text-xl tracking-wide text-center leading-5 font-bold">Lorem, ipsum dolor.</h1>
-                <h2 className="text-gray-500 mt-3 pl-3 text-center text-base leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vitae.</h2>
+                <h1 className="text-xl font-bold leading-5 tracking-wide text-center">Lorem, ipsum dolor.</h1>
+                <h2 className="pl-3 mt-3 text-base leading-6 tracking-wide text-center text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vitae.</h2>
               </div>
-              <img className="focus:outline-none my-10" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg" alt />
+              <img className="my-10 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg" alt />
               <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg6.svg" alt />
-              <div className="flex mt-10 flex-col items-center md:items-start md:w-8/12">
-                <h1 className="text-xl text-center tracking-wide leading-5 font-bold">Lorem, ipsum dolor.</h1>
-                <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, excepturi.</h2>
+              <div className="flex flex-col items-center mt-10 md:items-start md:w-8/12">
+                <h1 className="text-xl font-bold leading-5 tracking-wide text-center">Lorem, ipsum dolor.</h1>
+                <h2 className="mt-3 text-base leading-6 tracking-wide text-center text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, excepturi.</h2>
               </div>
             </div>
           </div>

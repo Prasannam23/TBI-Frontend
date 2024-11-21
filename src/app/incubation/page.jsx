@@ -8,34 +8,34 @@ function page() {
             <div >
                 <div className="pb-20">
                     <div className="mx-auto bg-gradient-to-l from-blue-900 to-blue-700 h-96">
-                        <div className="mx-auto container w-full flex flex-col justify-center items-center">
-                            <div className="flex justify-center items-center flex-col">
+                        <div className="container flex flex-col items-center justify-center w-full mx-auto">
+                            <div className="flex flex-col items-center justify-center">
                                 <div className="mt-20">
-                                    <h2 className="lg:text-6xl md:text-5xl text-4xl font-black leading-10 text-white">By the numbers</h2>
+                                    <h2 className="text-4xl font-black leading-10 text-white lg:text-6xl md:text-5xl">By the numbers</h2>
                                 </div>
-                                <div className="mt-6 mx-2 md:mx-0 text-center">
-                                    <p className="lg:text-lg md:text-base leading-6 text-sm  text-white">5 years, consistent quality and you get results. No matter what</p>
+                                <div className="mx-2 mt-6 text-center md:mx-0">
+                                    <p className="text-sm leading-6 text-white lg:text-lg md:text-base">5 years, consistent quality and you get results. No matter what</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="mx-auto container md:-mt-28 -mt-20 flex justify-center items-center">
-                        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-x-2 gap-y-2 lg:gap-x-6 md:gap-x-6 md:gap-y-6">
-                            <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-                                <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">40+</h2>
-                                <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Happy Clients</p>
+                    <div className="container flex items-center justify-center mx-auto -mt-20 md:-mt-28">
+                        <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-x-2 gap-y-2 lg:gap-x-6 md:gap-x-6 md:gap-y-6">
+                            <div className="flex flex-col items-center justify-center bg-white shadow w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 rounded-2xl">
+                                <h2 className="text-2xl font-extrabold leading-10 text-center text-gray-800 lg:text-5xl md:text-4xl">40+</h2>
+                                <p className="mt-4 text-sm leading-none text-center text-gray-600 md:text-base lg:text-lg">Happy Clients</p>
                             </div>
-                            <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-                                <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">540+</h2>
-                                <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Projects Completed</p>
+                            <div className="flex flex-col items-center justify-center bg-white shadow w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 rounded-2xl">
+                                <h2 className="text-2xl font-extrabold leading-10 text-center text-gray-800 lg:text-5xl md:text-4xl">540+</h2>
+                                <p className="mt-4 text-sm leading-none text-center text-gray-600 md:text-base lg:text-lg">Projects Completed</p>
                             </div>
-                            <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-                                <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">300</h2>
-                                <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Dedicated Members</p>
+                            <div className="flex flex-col items-center justify-center bg-white shadow w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 rounded-2xl">
+                                <h2 className="text-2xl font-extrabold leading-10 text-center text-gray-800 lg:text-5xl md:text-4xl">300</h2>
+                                <p className="mt-4 text-sm leading-none text-center text-gray-600 md:text-base lg:text-lg">Dedicated Members</p>
                             </div>
-                            <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
-                                <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">25+</h2>
-                                <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Awards Won</p>
+                            <div className="flex flex-col items-center justify-center bg-white shadow w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 rounded-2xl">
+                                <h2 className="text-2xl font-extrabold leading-10 text-center text-gray-800 lg:text-5xl md:text-4xl">25+</h2>
+                                <p className="mt-4 text-sm leading-none text-center text-gray-600 md:text-base lg:text-lg">Awards Won</p>
                             </div>
                         </div>
                     </div>
@@ -52,11 +52,11 @@ function page() {
 
 
 
-            <h1 className="lg:text-5xl md:text-4xl text-2xl font-semibold px-4 leading-10 text-gray-800 mt-20 text-center">What our incubatee says</h1>
-            <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-10 gap-6">
+            <h1 className="px-4 mt-20 text-2xl font-semibold leading-10 text-center text-gray-800 lg:text-5xl md:text-4xl">What our incubatee says</h1>
+            <div className="container grid gap-6 px-10 py-10 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20">
                 <div>
-                    <div className="group w-full bg-white relative flex flex-col items-center hover:bg-indigo-700 cursor-pointer shadow-md md:p-12 p-6">
-                        <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                    <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-md cursor-pointer group hover:bg-indigo-700 md:p-12">
+                        <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                             <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0)">
                                     <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
@@ -68,9 +68,9 @@ function page() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="xl:w-80 text-base leading-normal text-center mt-4">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
+                            <p className="mt-4 text-base leading-normal text-center xl:w-80">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
                         </div>
-                        <div className="text-white group-hover:text-indigo-700 absolute bottom-0 -mb-6">
+                        <div className="absolute bottom-0 -mb-6 text-white group-hover:text-indigo-700">
                             <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_dd)">
                                     <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
@@ -97,13 +97,13 @@ function page() {
                     </div>
                     <div className="flex flex-col items-center justify-center mt-10">
                         <Image width={100} height={100} src="https://i.ibb.co/ZgF5Zzz/avatar-1.png" alt="profile pictre" className="w-12 h-12" />
-                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Tom Koch</p>
+                        <p className="my-2 text-base font-semibold leading-4 text-gray-800">Tom Koch</p>
                         <p className="text-base leading-4 text-center text-gray-600">Developer</p>
                     </div>
                 </div>
                 <div>
-                    <div className="group w-full bg-white relative flex flex-col items-center hover:bg-indigo-700 cursor-pointer shadow-md md:p-12 p-6">
-                        <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                    <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-md cursor-pointer group hover:bg-indigo-700 md:p-12">
+                        <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                             <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0)">
                                     <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
@@ -115,9 +115,9 @@ function page() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="xl:w-80 text-base leading-normal text-center mt-4">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
+                            <p className="mt-4 text-base leading-normal text-center xl:w-80">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
                         </div>
-                        <div className="text-white group-hover:text-indigo-700 absolute bottom-0 -mb-6">
+                        <div className="absolute bottom-0 -mb-6 text-white group-hover:text-indigo-700">
                             <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_dd)">
                                     <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
@@ -144,13 +144,13 @@ function page() {
                     </div>
                     <div className="flex flex-col items-center justify-center mt-10">
                         <Image width={100} height={100} src="https://i.ibb.co/8BLjmqz/avatar-2.png" alt="profile pictre" className="w-12 h-12" />
-                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Alan Max</p>
+                        <p className="my-2 text-base font-semibold leading-4 text-gray-800">Alan Max</p>
                         <p className="text-base leading-4 text-center text-gray-600">Designer</p>
                     </div>
                 </div>
                 <div>
-                    <div className="group w-full bg-white relative flex flex-col items-center hover:bg-indigo-700 cursor-pointer shadow-md md:p-12 p-6">
-                        <div className="text-gray-600 group-hover:text-white flex flex-col items-center">
+                    <div className="relative flex flex-col items-center w-full p-6 bg-white shadow-md cursor-pointer group hover:bg-indigo-700 md:p-12">
+                        <div className="flex flex-col items-center text-gray-600 group-hover:text-white">
                             <svg width={26} height={27} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0)">
                                     <path d="M25.2578 14.3309H19.2969C19.3988 9.55819 20.6309 9.01642 22.1785 8.86178L22.7753 8.78051V3.53242L22.0874 3.57292C20.0666 3.69783 17.8323 4.09805 16.3417 6.11965C15.035 7.89183 14.459 10.7871 14.459 15.2316V23.4673H25.2578V14.3309Z" fill="currentColor" />
@@ -162,9 +162,9 @@ function page() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="xl:w-80 text-base leading-normal text-center mt-4">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
+                            <p className="mt-4 text-base leading-normal text-center xl:w-80">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
                         </div>
-                        <div className="text-white group-hover:text-indigo-700 absolute bottom-0 -mb-6">
+                        <div className="absolute bottom-0 -mb-6 text-white group-hover:text-indigo-700">
                             <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_dd)">
                                     <path d="M17 19L28.2583 3.25H5.74167L17 19Z" fill="currentColor" />
@@ -191,15 +191,15 @@ function page() {
                     </div>
                     <div className="flex flex-col items-center justify-center mt-10">
                         <Image width={100} height={100} src="https://i.ibb.co/y0KCX7p/avatar-3.png" alt="profile pictre" className="w-12 h-12" />
-                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Kera Joo</p>
+                        <p className="my-2 text-base font-semibold leading-4 text-gray-800">Kera Joo</p>
                         <p className="text-base leading-4 text-center text-gray-600">Support</p>
                     </div>
                 </div>
             </div>
-            <div className=" px-6 2xl:px-9  w-full flex justify-center items-center py-10 md:py-16 lg:py-32">
-                <div className="mx-auto container">
+            <div className="flex items-center justify-center w-full px-6 py-10  2xl:px-9 md:py-16 lg:py-32">
+                <div className="container mx-auto">
                     <div className>
-                        <div className="flex flex-col lg:flex-row items-center justify-between w-full">
+                        <div className="flex flex-col items-center justify-between w-full lg:flex-row">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width={131} height={32} viewBox="0 0 131 32" fill="none">
                                     <path
@@ -253,9 +253,9 @@ function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="mt-16 lg:mt-32 lg:flex justify-between items-start w-full">
-                        <p className="xl:3/5 text-base md:text-lg lg:text-xl lg:leading-9 text-gray-700 font-normal xl:pr-8">Lorem Ipsum. Proin gravida nibh vel velit amet auctor aliquet. Aenean sollicitudin, lorem quis bibendum nisi elit consequat ipsum, nec ipsu sagittis sebh id elit. Duis sed odio sit amet nibh vulputatrsus a sit amet mauris morbi ipsum.</p>
-                        <div className="sm:flex justify-center xl:justify-end w-full l pt-10 lg:pt-0">
+                    <div className="items-start justify-between w-full mt-16 lg:mt-32 lg:flex">
+                        <p className="text-base font-normal text-gray-700 xl:3/5 md:text-lg lg:text-xl lg:leading-9 xl:pr-8">Lorem Ipsum. Proin gravida nibh vel velit amet auctor aliquet. Aenean sollicitudin, lorem quis bibendum nisi elit consequat ipsum, nec ipsu sagittis sebh id elit. Duis sed odio sit amet nibh vulputatrsus a sit amet mauris morbi ipsum.</p>
+                        <div className="justify-center w-full pt-10 sm:flex xl:justify-end l lg:pt-0">
                             <img src="https://cdn.tuk.dev/assets/components/111220/lc-4/map.png" alt="" />
                         </div>
                     </div>
