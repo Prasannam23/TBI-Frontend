@@ -154,7 +154,7 @@ Shruti Devasthali leads seed funding and portfolio monitoring at Venture Center.
                                 </div>
                                 <div >
                                     <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Board</p>
-                                    <p className="mt-2 font-normal text-base leading-6 text-gray-600">The Board is composed of experienced professionals guiding Venture Center's strategic direction, ensuring informed decision-making and effective implementation of innovation and entrepreneurship programs.</p>
+                                    <p className="mt-2 font-normal text-base leading-6 text-gray-600">The Board is composed of experienced professionals guiding Venture Center{`'`}s strategic direction, ensuring informed decision-making and effective implementation of innovation and entrepreneurship programs.</p>
                                 </div>
                             </div>
 
